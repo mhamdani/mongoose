@@ -31,7 +31,7 @@ app.set('view engine', 'handlebars');
 // Set mongoose to leverage built in JavaScript ES6 Promises
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://localhost/news", {
+mongoose.connect("mongodb://heroku_nh27gvhn:7g8u1r2ickr27torem55moqdha@ds151062.mlab.com:51062/heroku_nh27gvhn", {
   useMongoClient: true
 });
 // Routes
