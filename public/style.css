@@ -30,7 +30,8 @@ h4 {
 textarea, input {
   display: block;
   width: 100%;
-  background-color: #FCF5C7;
+  background-color: slategray;
+  color: white;
 }
 input {
   height: 36px;

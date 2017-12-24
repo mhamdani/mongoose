@@ -66,6 +66,7 @@ app.get("/scrape", function(req, res) {
           res.json(err);
         });
     });
+
   });
 });
 // Route for getting all Articles from the db
